@@ -27,3 +27,7 @@ alias dec2bin='convert 10 2'
 alias bin2dec='convert 2 10'
 alias hex2bin='convert 16 2'
 alias bin2hex='convert 2 16'
+
+# Lynx Aliases
+alias html2ascii='lynx -force_html -stdin -dump -nolist'
+function mdview() {	pandoc $1 | lynx -stdin }
