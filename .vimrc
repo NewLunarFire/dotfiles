@@ -27,3 +27,7 @@ set hlsearch
 set foldenable
 set foldlevelstart=10
 set foldmethod=indent
+
+"Show tabs as arrows
+set list
+set listchars=tab:>-
