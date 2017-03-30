@@ -27,3 +27,7 @@ set hlsearch
 set foldenable
 set foldlevelstart=10
 set foldmethod=indent
+
+"Adjustements for Python and YAML
+autocmd Filetype python set expandtab shiftwidth=2 tabstop=2
+autocmd Filetype *.yaml set expandtab shiftwidth=4 tabstop=4
